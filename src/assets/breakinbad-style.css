@@ -1,0 +1,35 @@
+body {
+    background: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h3 {
+    font-variant: small-caps;
+}
+
+
+/* font style variant para inclinar las palabras de costado */
+
+p {
+    font-style: italic;
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+/* utilice este before para las comillas */
+
+p::before {
+    content: open-quote;
+    font-style: italic;
+    position: absolute;
+    top: -.7em;
+    left: -.4em;
+    font-size: 6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+button {
+    /* espaciado entre letras */
+    letter-spacing: .1em;
+}
